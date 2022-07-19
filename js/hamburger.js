@@ -1,4 +1,3 @@
-  // Look for .hamburger
   var hamburger = document.querySelector(".hamburger");
   // On click
   hamburger.addEventListener("click", function() {
