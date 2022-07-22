@@ -270,13 +270,13 @@ border: 1px solid rgba(0, 0, 0, 0.08);
     width: 100%;
     justify-content: center;
 }
-.cardIndex{
+.card{
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 2rem;
 }
-.cardIndex > img {
+.card > img {
     width: 150px;
 }
 
@@ -733,28 +733,4 @@ button:focus{
 }
 .progress{
     margin-bottom: 1rem;
-}
-.content_bt{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem;
-    position: relative;
-}
-.contentBt{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-.contentImgBt {
-    width: 100%;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.card-img-top{
-    width: 80% !important;
 }
