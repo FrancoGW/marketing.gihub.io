@@ -767,3 +767,8 @@ button:focus{
     justify-content: center;
     align-items: center;
 }
+.contentModalServices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
