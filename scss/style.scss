@@ -1,12 +1,52 @@
 $colorDominante:#ffc107;
-
+$lista : $colorDominante, black, #fff;
+$default: nth($lista, 1);
 .contentS1{
     h1{
-        text-decoration: underline 3px $colorDominante;
+        text-decoration: underline 3px $default;
     }
     button{
         cursor: pointer;
     }
+}
+.logo-2{
+    img{
+        width: 100%;
+    }
+}
+.logo-3{
+    img{
+        width: 100%;
+    }
+}
+@mixin generalStyles{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    scroll-behavior: smooth;
+}
+*{
+    @include generalStyles();
+}
+$stylesColor:(
+    color:#ffc107,
+    center:center,
+    size:17px,
+    rem1:1rem
+);
+.btn-warning{
+    background-color: map-get($stylesColor , color );
+}
+
+.section1 {
+    display: flex;
+    width: 100%;
+    padding: 5rem;
+    height: auto;
+}
+.section1--danger {
+   @extend .section1
 }
 
 

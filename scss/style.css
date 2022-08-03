@@ -3,4 +3,26 @@
 .contentS1 button {
   cursor: pointer; }
 
+.logo-2 img {
+  width: 100%; }
+
+.logo-3 img {
+  width: 100%; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'montserrat';
+  scroll-behavior: smooth; }
+
+.btn-warning {
+  background-color: #ffc107; }
+
+.section1, .section1--danger {
+  display: flex;
+  width: 100%;
+  padding: 5rem;
+  height: auto; }
+
 /*# sourceMappingURL=style.css.map */
