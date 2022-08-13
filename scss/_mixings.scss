@@ -1,0 +1,12 @@
+@mixin generalStyles{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    scroll-behavior: smooth;
+}
+@mixin displayCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
